@@ -3,15 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
-.hero{
+.background-image {
     background-image: url(Images/background.jpg);
     width: 100%;
     background-position: center;
-    padding: 20px;
     background-size: cover;
-    height: 50 rem;
+    height: 100vh;
 
-
+}
+.navbar {
+    background: #ddd;
+    color: #fff;
 }
 .logo{
     float: left;
